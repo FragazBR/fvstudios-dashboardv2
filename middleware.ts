@@ -1,32 +1,20 @@
-import createMiddleware from 'next-intl/middleware';
-import {NextRequest, NextResponse} from 'next/server';
-import {locales} from '@/config';
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 
-export default async function middleware(request: NextRequest) {
-  
- 
+export function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+  const locale = request.nextUrl.locale || "br";
 
+  // Redirect root URL to default locale
+  if (pathname === "/") {
+    return NextResponse.redirect(new URL(`/${locale}`, request.url));
+  }
 
-  // Step 1: Use the incoming request (example)
-  const defaultLocale = request.headers.get('fvstudios-locale') || 'br';
- 
-  // Step 2: Create and call the next-intl middleware (example)
-  const handleI18nRouting = createMiddleware({
-    locales,
-    defaultLocale
-    
-  });
-  const response = handleI18nRouting(request);
- 
-  // Step 3: Alter the response (example)
-  response.headers.set('fvstudios-locale', defaultLocale);
-
-
- 
-  return response;
+  return NextResponse.next();
 }
- 
+
 export const config = {
-  // Match only internationalized pathnames
-  matcher: ['/', '/(br|en)/:path*']
+  matcher: [
+    "/((?!_next|api|static|favicon.ico).*)",
+  ],
 };
