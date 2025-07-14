@@ -1,9 +1,15 @@
-export const metadata = {
-  title: "Calender",
-};
+"use client";
+
+import { useTranslations } from "next-intl";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
-  return <>{children}</>;
+  const t = useTranslations("CalendarApp");
+  return (
+    <>
+      <title>{t("pageTitle")}</title>
+      {children}
+    </>
+  );
 };
 
 export default Layout;
