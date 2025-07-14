@@ -114,6 +114,7 @@
     "addBoard": "اضافة قائمة جديدة"
   },
   "CalendarApp": {
+    "pageTitle": "Calendário",
     "addEvent": "اضافة حدث",
     "shortDesc": "قم بسحب وإسقاط الحدث الخاص بك أو انقر في التقويم",
     "filter": "فلتر"

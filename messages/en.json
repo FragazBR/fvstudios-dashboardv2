@@ -106,6 +106,7 @@
     "addBoard": "Add Board"
   },
   "CalendarApp": {
+    "pageTitle": "Calendar",
     "addEvent": "Add Event",
     "shortDesc": "Drag and drop your event or click in the calendar",
     "filter": "FILTER"
