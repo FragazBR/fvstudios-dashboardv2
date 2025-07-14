@@ -4,7 +4,7 @@ import LoginForm from "@/components/partials/auth//login-form";
 import Image from "next/image";
 import Logo from "@/components/logo";
 
-const Login3 = () => {
+const Login3 = ({ params: { locale } }: { params: { locale: string } }) => {
   return (
     <>
       <div
@@ -48,7 +48,7 @@ const Login3 = () => {
                 </div>
               </div>
               <div className="max-w-[242px] mx-auto mt-8 w-full">
-                <Social locale="en" />
+                <Social locale={locale} />
               </div>
               <div className="mx-auto font-normal text-default-500  2xl:mt-12 mt-6 uppercase text-sm text-center">
                 {` Don't`} have an account?

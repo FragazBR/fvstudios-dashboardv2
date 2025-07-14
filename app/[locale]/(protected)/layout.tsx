@@ -6,11 +6,17 @@ import ThemeCustomize from '@/components/partials/customizer'
 import DashCodeHeader from '@/components/partials/header'
 import { auth } from "@/lib/auth";
 import { redirect } from "@/components/navigation";
-const layout = async ({ children }: { children: React.ReactNode }) => {
+const layout = async ({
+    children,
+    params: { locale },
+}: {
+    children: React.ReactNode;
+    params: { locale: string };
+}) => {
     const session = await auth();
 
     if (!session) {
-        redirect({ href: '/', locale: 'en' })
+        redirect({ href: '/', locale })
     }
     return (
         <LayoutProvider >

@@ -6,7 +6,7 @@ import Logo from "@/components/logo";
 
 // image import
 
-const Register2 = () => {
+const Register2 = ({ params: { locale } }: { params: { locale: string } }) => {
   return (
     <>
       <div className="flex w-full items-center overflow-hidden min-h-dvh h-dvh basis-full">
@@ -32,7 +32,7 @@ const Register2 = () => {
                   </div>
                 </div>
                 <div className="max-w-[242px] mx-auto mt-8 w-full">
-                  <Social locale="" />
+                    <Social locale={locale} />
                 </div>
                 <div className="max-w-[225px] mx-auto font-normal text-default-500  2xl:mt-12 mt-6 uppercase text-sm">
                   Already registered?

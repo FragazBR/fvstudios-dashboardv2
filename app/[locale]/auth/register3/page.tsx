@@ -4,7 +4,7 @@ import Social from "@/components/partials/auth//social";
 import Image from "next/image";
 import Logo from "@/components/logo";
 
-const Register3 = () => {
+const Register3 = ({ params: { locale } }: { params: { locale: string } }) => {
   return (
     <>
       <div
@@ -50,8 +50,8 @@ const Register3 = () => {
                   Or continue with
                 </div>
               </div>
-              <div className="max-w-[242px] mx-auto mt-8 w-full">
-                <Social locale="" />
+                <div className="max-w-[242px] mx-auto mt-8 w-full">
+                  <Social locale={locale} />
               </div>
               <div className="max-w-[225px] mx-auto font-normal text-default-500  2xl:mt-12 mt-6 uppercase text-sm">
                 Already registered?
