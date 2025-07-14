@@ -1,21 +1,22 @@
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
-import { defaultLocale } from '@/config';
+import createMiddleware from 'next-intl/middleware';
+import { NextRequest } from 'next/server';
+import { locales, defaultLocale } from '@/config';
 
-export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-  const locale = request.nextUrl.locale || defaultLocale;
+export default function middleware(request: NextRequest) {
+  const handleI18nRouting = createMiddleware({
+    locales,
+    defaultLocale
+  });
 
-  // Redirect root URL to default locale
-  if (pathname === "/") {
-    return NextResponse.redirect(new URL(`/${locale}`, request.url));
-  }
+  const response = handleI18nRouting(request);
 
-  return NextResponse.next();
+  // Define o idioma no header para acesso global
+  response.headers.set('fvstudios-locale', request.headers.get('fvstudios-locale') || defaultLocale);
+
+  return response;
 }
 
 export const config = {
-  matcher: [
-    "/((?!_next|api|static|favicon.ico).*)",
-  ],
+  // Match only internationalized pathnames
+  matcher: ['/', '/(br|en|es)/:path*']
 };

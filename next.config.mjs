@@ -34,11 +34,6 @@ const nextConfig = {
       },
     ],
   },
-  i18n: {
-    locales: ["br", "en"],
-    defaultLocale: "br",
-    localeDetection: true,
-  },
 };
 
 export default withNextIntl(withNextra(nextConfig));
