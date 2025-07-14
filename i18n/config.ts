@@ -1,4 +1,6 @@
+import { locales, defaultLocale } from '@/config';
+
 export default {
-  locales: ['br', 'en'],
-  defaultLocale: 'br',
+  locales,
+  defaultLocale,
 };

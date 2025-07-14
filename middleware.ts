@@ -1,9 +1,10 @@
-import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
+import { defaultLocale } from '@/config';
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const locale = request.nextUrl.locale || "br";
+  const locale = request.nextUrl.locale || defaultLocale;
 
   // Redirect root URL to default locale
   if (pathname === "/") {

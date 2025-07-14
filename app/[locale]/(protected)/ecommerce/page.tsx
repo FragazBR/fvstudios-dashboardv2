@@ -1,7 +1,7 @@
 "use client";
-import { redirect } from "@/components/navigation";
+import { redirect } from '@/components/navigation';
 const Backend = () => {
-  redirect({ href: '/ecommerce/frontend', locale: 'en' })
+  redirect({ href: '/ecommerce/frontend' })
   return null;
 };
 

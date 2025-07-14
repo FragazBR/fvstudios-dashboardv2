@@ -4,7 +4,7 @@ import Social from "@/components/partials/auth/social";
 import Image from "next/image";
 import Copyright from "@/components/partials/auth/copyright";
 import Logo from "@/components/logo";
-const Login2 = () => {
+const Login2 = ({ params: { locale } }: { params: { locale: string } }) => {
   return (
     <>
       <div className="flex w-full items-center overflow-hidden min-h-dvh h-dvh basis-full">
@@ -30,7 +30,7 @@ const Login2 = () => {
                   </div>
                 </div>
                 <div className="max-w-[242px] mx-auto mt-8 w-full">
-                  <Social locale="en" />
+                  <Social locale={locale} />
                 </div>
                 <div className="md:max-w-[345px] mt-6 mx-auto font-normal text-default-500 md:mt-12 uppercase text-sm">
                   Don’t have an account?{" "}
