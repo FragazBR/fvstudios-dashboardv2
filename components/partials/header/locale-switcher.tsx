@@ -45,7 +45,7 @@ export default function LocalSwitcher() {
                         <span className='font-medium text-sm text-default-600 dark:text-default-700'>En</span>
                     </div>
                 </SelectItem>
-                <SelectItem className='cursor-pointer' value="br">
+                <SelectItem className='cursor-pointer' value="ar">
                     <div className='flex items-center gap-1'>
                         <Image
                             src="/images/all-img/flag-2.png"
@@ -54,7 +54,7 @@ export default function LocalSwitcher() {
                             height={24}
                             className='w-6 h-6 rounded-full'
                         />
-                        <span className='font-medium text-sm text-default-600 dark:text-default-700'>Br</span>
+                        <span className='font-medium text-sm text-default-600 dark:text-default-700'>Ar</span>
                     </div>
                 </SelectItem>
             </SelectContent>

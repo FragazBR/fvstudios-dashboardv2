@@ -3,7 +3,7 @@ import nextra from "nextra";
 
 /** @type {import('next').NextConfig} */
 
-const withNextIntl = createNextIntlPlugin('./i18n/config.ts');
+const withNextIntl = createNextIntlPlugin();
 
 const withNextra = nextra({
   theme: "nextra-theme-docs",
