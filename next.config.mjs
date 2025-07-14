@@ -3,7 +3,7 @@ import nextra from "nextra";
 
 /** @type {import('next').NextConfig} */
 
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = createNextIntlPlugin('./i18n/config.ts');
 
 const withNextra = nextra({
   theme: "nextra-theme-docs",
@@ -33,6 +33,11 @@ const nextConfig = {
         hostname: "i.pravatar.cc",
       },
     ],
+  },
+  i18n: {
+    locales: ["br", "en"],
+    defaultLocale: "br",
+    localeDetection: true,
   },
 };
 

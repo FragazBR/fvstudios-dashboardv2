@@ -20,7 +20,7 @@ const Login2 = () => {
                 <div className="text-center 2xl:mb-10 mb-4">
                   <h4 className="font-medium">Sign in</h4>
                   <div className="text-default-500  text-base">
-                    Sign in to your account to start using Dashcode
+                    Sign in to your account to start using FVSTUDIOS
                   </div>
                 </div>
                 <LoginForm />
@@ -57,7 +57,7 @@ const Login2 = () => {
               <div className="flex-1 flex flex-col justify-center items-center">
                 <Link href="/">
                   <Image
-                    src="/images/logo/logo-white.svg"
+                    src="/images/logo/logo-white.png"
                     alt=""
                     width={300}
                     height={300}

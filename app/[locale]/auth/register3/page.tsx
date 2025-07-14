@@ -22,7 +22,7 @@ const Register3 = () => {
                 <Image
                   width={300}
                   height={300}
-                  src="/images/logo/logo-white.svg"
+                  src="/images/logo/logo-white.png"
                   alt=""
                   className="mb-10 w-36"
                 />
@@ -41,7 +41,7 @@ const Register3 = () => {
                   Sign up
                 </h4>
                 <div className="text-default-500  text-base">
-                  Create an account to start using Dashcode
+                  Create an account to start using FVSTUDIOS
                 </div>
               </div>
               <RegForm />
