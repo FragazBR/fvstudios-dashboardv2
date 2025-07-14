@@ -54,7 +54,7 @@ const ForgotPass2 = () => {
                 <Image
                   height={300}
                   width={300}
-                  src="/images/logo/logo-white.svg"
+                  src="/images/logo/logo-white.png"
                   alt=""
                   className="mb-10 w-36"
                 />
