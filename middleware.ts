@@ -8,7 +8,7 @@ export default async function middleware(request: NextRequest) {
 
 
   // Step 1: Use the incoming request (example)
-  const defaultLocale = request.headers.get('fvstudios-locale') || 'en';
+  const defaultLocale = request.headers.get('fvstudios-locale') || 'br';
  
   // Step 2: Create and call the next-intl middleware (example)
   const handleI18nRouting = createMiddleware({
@@ -28,5 +28,5 @@ export default async function middleware(request: NextRequest) {
  
 export const config = {
   // Match only internationalized pathnames
-  matcher: ['/', '/(ar|en)/:path*']
+  matcher: ['/', '/(br|en)/:path*']
 };
