@@ -4,7 +4,7 @@ import Social from "@/components/partials/auth//social";
 import Image from "next/image";
 import Logo from "@/components/logo";
 
-const Register3 = ({ params: { locale } }: { params: { locale: string } }) => {
+const Register3 = () => {
   return (
     <>
       <div
@@ -22,7 +22,7 @@ const Register3 = ({ params: { locale } }: { params: { locale: string } }) => {
                 <Image
                   width={300}
                   height={300}
-                  src="/images/logo/logo-white.png"
+                  src="/images/logo/logo-white.svg"
                   alt=""
                   className="mb-10 w-36"
                 />
@@ -41,7 +41,7 @@ const Register3 = ({ params: { locale } }: { params: { locale: string } }) => {
                   Sign up
                 </h4>
                 <div className="text-default-500  text-base">
-                  Create an account to start using FVSTUDIOS
+                  Create an account to start using Dashcode
                 </div>
               </div>
               <RegForm />
@@ -50,8 +50,8 @@ const Register3 = ({ params: { locale } }: { params: { locale: string } }) => {
                   Or continue with
                 </div>
               </div>
-                <div className="max-w-[242px] mx-auto mt-8 w-full">
-                  <Social locale={locale} />
+              <div className="max-w-[242px] mx-auto mt-8 w-full">
+                <Social locale="" />
               </div>
               <div className="max-w-[225px] mx-auto font-normal text-default-500  2xl:mt-12 mt-6 uppercase text-sm">
                 Already registered?

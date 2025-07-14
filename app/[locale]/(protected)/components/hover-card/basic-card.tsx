@@ -26,9 +26,9 @@ const BasicCard = () => {
               <AvatarFallback>VC</AvatarFallback>
             </Avatar>
             <div className="space-y-1">
-              <h4 className="text-sm font-semibold">FVSTUDIOS</h4>
+              <h4 className="text-sm font-semibold">DashCode</h4>
               <p className="text-sm">
-                Admin UI Kit - FVSTUDIOS; Next.js, React, and Tailwind CSS
+                Admin UI Kit - DashCode; Next.js, React, and Tailwind CSS
               </p>
               <div className="flex items-center pt-2">
                 <CalendarDays className="mr-2 h-4 w-4 opacity-70" />{" "}

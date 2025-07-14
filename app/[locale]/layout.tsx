@@ -12,16 +12,11 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import DirectionProvider from "@/providers/direction-provider";
 import AuthProvider from "@/providers/auth.provider";
-import { locales } from "@/config";
 
 export const metadata: Metadata = {
-  title: "FVSTUDIOS admin Template",
+  title: "Dashcode admin Template",
   description: "created by codeshaper",
 };
-
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
 
 export default async function RootLayout({
   children,

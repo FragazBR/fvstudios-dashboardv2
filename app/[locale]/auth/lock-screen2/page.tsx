@@ -18,7 +18,7 @@ const LockScreen2 = () => {
               <Image
                 width={300}
                 height={300}
-                src="/images/logo/logo-white.png"
+                src="/images/logo/logo-white.svg"
                 alt=""
                 className="mb-10 w-36"
               />
@@ -35,7 +35,7 @@ const LockScreen2 = () => {
             <div className="text-center 2xl:mb-10 mb-5">
               <h4 className="font-medium mb-4">Forgot Your Password?</h4>
               <div className="text-default-500 text-base">
-                Reset Password with FVSTUDIOS.
+                Reset Password with Dashcode.
               </div>
             </div>
             <div className="font-normal text-base text-default-500 text-center px-2 bg-default-100 rounded py-3 mb-4 mt-10">

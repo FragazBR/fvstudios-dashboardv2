@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "FVSTUDIOS Next Js",
-  description: "FVSTUDIOS is a popular dashboard template.",
+  title: "Dashcode Next Js",
+  description: "Dashcode is a popular dashboard template.",
 };
 
 const layout = ({ children }: { children: React.ReactNode }) => {

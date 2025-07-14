@@ -34,13 +34,13 @@ const socials = [
     },
 ];
 
-const ChatPageSingle = async ({ params: { locale, id } }: { params: { locale: string; id: string } }) => {
+const ChatPageSingle = async ({ params: { id } }: { params: { id: string }; }) => {
  
     const { chat, contact } = await getChatsByContactId(id)
     const profile = await getProfileUser()
 
     if (!contact) {
-        redirect({ href: '/app/chat', locale })
+        redirect({ href: '/app/chat', locale: 'en' })
     }
 
     return (

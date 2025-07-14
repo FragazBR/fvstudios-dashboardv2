@@ -6,7 +6,7 @@ import Logo from "@/components/logo";
 
 // image import
 
-const Register2 = ({ params: { locale } }: { params: { locale: string } }) => {
+const Register2 = () => {
   return (
     <>
       <div className="flex w-full items-center overflow-hidden min-h-dvh h-dvh basis-full">
@@ -22,7 +22,7 @@ const Register2 = ({ params: { locale } }: { params: { locale: string } }) => {
                 <div className="text-center 2xl:mb-10 mb-5">
                   <h4 className="font-medium">Sign up</h4>
                   <div className="text-default-500  text-base">
-                    Create an account to start using FVSTUDIOS
+                    Create an account to start using Dashcode
                   </div>
                 </div>
                 <RegForm />
@@ -32,7 +32,7 @@ const Register2 = ({ params: { locale } }: { params: { locale: string } }) => {
                   </div>
                 </div>
                 <div className="max-w-[242px] mx-auto mt-8 w-full">
-                    <Social locale={locale} />
+                  <Social locale="" />
                 </div>
                 <div className="max-w-[225px] mx-auto font-normal text-default-500  2xl:mt-12 mt-6 uppercase text-sm">
                   Already registered?
@@ -45,7 +45,7 @@ const Register2 = ({ params: { locale } }: { params: { locale: string } }) => {
                 </div>
               </div>
               <div className="text-xs font-normal text-default-500 z-999 pb-10 text-center">
-                Copyright 2021, FVSTUDIOS All Rights Reserved.
+                Copyright 2021, Dashcode All Rights Reserved.
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Register2 = ({ params: { locale } }: { params: { locale: string } }) => {
                   <Image
                     width={300}
                     height={300}
-                    src="/images/logo/logo-white.png"
+                    src="/images/logo/logo-white.svg"
                     alt=""
                     className="mb-10 w-36"
                   />

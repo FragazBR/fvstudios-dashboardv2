@@ -16,7 +16,7 @@ const WidgetPage = () => {
           <WelcomeBlock >
             <div className="max-w-[180px] relative z-10">
               <h4 className="text-xl font-medium text-primary-foreground dark:text-default-900 mb-2">
-                Upgrade your FVSTUDIOS
+                Upgrade your Dashcode
               </h4>
               <p className="text-sm text-primary-foreground dark:text-default-800 text-opacity-80">
                 Pro plan for better results
@@ -36,7 +36,7 @@ const WidgetPage = () => {
           <WelcomeBlock >
             <div className="max-w-[180px] relative z-10">
               <div className="text-xl font-medium text-default-900 dark:text-default-100 mb-2">
-                Upgrade your FVSTUDIOS
+                Upgrade your Dashcode
               </div>
               <p className="text-sm text-default-800 dark:text-default-100">
                 Pro plan for better results
@@ -55,7 +55,7 @@ const WidgetPage = () => {
           <WelcomeBlock >
             <div className="max-w-[180px] relative z-10">
               <div className="text-xl font-medium text-default-900 dark:text-default-100 mb-2">
-                Upgrade your FVSTUDIOS
+                Upgrade your Dashcode
               </div>
               <p className="text-sm text-default-800 dark:text-default-100">
                 Pro plan for better results
@@ -78,7 +78,7 @@ const WidgetPage = () => {
                 <span className="block">Mr. Dianne Russell</span>
               </h4>
               <p className="text-sm text-primary-foreground dark:text-default-900 font-normal">
-                Welcome to FVSTUDIOS
+                Welcome to Dashcode
               </p>
             </div>
             <Image
@@ -98,7 +98,7 @@ const WidgetPage = () => {
                   <span className="block">Mr. Dianne Russell</span>
                 </div>
                 <p className="text-sm text-default-900 dark:text-default-100 font-normal">
-                  Welcome to FVSTUDIOS
+                  Welcome to Dashcode
                 </p>
               </div>
             </div>
@@ -128,7 +128,7 @@ const WidgetPage = () => {
                   <span className="block">Mr. Dianne Russell</span>
                 </div>
                 <p className="text-sm text-wgite text-primary-foreground  font-normal">
-                  Welcome to FVSTUDIOS
+                  Welcome to Dashcode
                 </p>
               </div>
             </div>
@@ -154,7 +154,7 @@ const WidgetPage = () => {
           <WelcomeBlock className="bg-default" >
             <div className="max-w-[180px] relative z-10">
               <h4 className="text-xl font-medium text-primary-foreground mb-2">
-                Upgrade your FVSTUDIOS
+                Upgrade your Dashcode
               </h4>
               <p className="text-sm text-primary-foreground text-opacity-80">
                 Pro plan for better results
@@ -167,7 +167,7 @@ const WidgetPage = () => {
           <WelcomeBlock className="bg-primary" >
             <div className="max-w-[180px] relative z-10">
               <h4 className="text-xl font-medium text-primary-foreground dark:text-default-900 mb-2">
-                Upgrade your FVSTUDIOS
+                Upgrade your Dashcode
               </h4>
               <p className="text-sm text-primary-foreground dark:text-default-900 text-opacity-80">
                 Pro plan for better results
@@ -179,7 +179,7 @@ const WidgetPage = () => {
           <WelcomeBlock className="bg-linear-to-r from-primary to-success" >
             <div className="max-w-[180px] relative z-10">
               <h4 className="text-xl font-medium text-primary-foreground dark:text-default-900 mb-2">
-                Upgrade your FVSTUDIOS
+                Upgrade your Dashcode
               </h4>
               <p className="text-sm text-primary-foreground dark:text-default-900 text-opacity-80">
                 Pro plan for better results

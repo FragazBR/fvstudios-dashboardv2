@@ -2,7 +2,7 @@
 'use client'
 import React from "react";
 import { Loader2 } from "lucide-react";
-import DashCodeLogo from "./fvstudios-logo";
+import DashCodeLogo from "./dascode-logo";
 import { useMounted } from "@/hooks/use-mounted";
 const Loader = () => {
     const mounted = useMounted()
@@ -11,7 +11,7 @@ const Loader = () => {
             <div className="flex gap-2 items-center ">
                 <DashCodeLogo className="  text-default-900 h-8 w-8 [&>path:nth-child(3)]:text-background [&>path:nth-child(2)]:text-background" />
                 <h1 className="text-xl font-semibold text-default-900 ">
-                    FVSTUDIOS
+                    DashCode
                 </h1>
             </div>
             <span className=" inline-flex gap-1  items-center">

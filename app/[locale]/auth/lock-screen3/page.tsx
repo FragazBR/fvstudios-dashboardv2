@@ -18,7 +18,7 @@ const LockScreen3 = () => {
               <Image
                 height={300}
                 width={300}
-                src="/images/logo/logo-white.png"
+                src="/images/logo/logo-white.svg"
                 alt=""
                 className="mb-10"
               />

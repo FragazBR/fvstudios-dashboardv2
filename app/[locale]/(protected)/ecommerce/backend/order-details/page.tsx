@@ -114,7 +114,7 @@ const OrderDetails = () => {
               </div>
               <div className="mt-[6px] flex space-x-2 leading-none rtl:space-x-reverse">
                 <Icon icon="heroicons-outline:mail" />
-                <span>FVSTUDIOS@example.com</span>
+                <span>Dashcode@example.com</span>
               </div>
             </div>
           </div>

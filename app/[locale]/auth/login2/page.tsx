@@ -4,7 +4,7 @@ import Social from "@/components/partials/auth/social";
 import Image from "next/image";
 import Copyright from "@/components/partials/auth/copyright";
 import Logo from "@/components/logo";
-const Login2 = ({ params: { locale } }: { params: { locale: string } }) => {
+const Login2 = () => {
   return (
     <>
       <div className="flex w-full items-center overflow-hidden min-h-dvh h-dvh basis-full">
@@ -20,7 +20,7 @@ const Login2 = ({ params: { locale } }: { params: { locale: string } }) => {
                 <div className="text-center 2xl:mb-10 mb-4">
                   <h4 className="font-medium">Sign in</h4>
                   <div className="text-default-500  text-base">
-                    Sign in to your account to start using FVSTUDIOS
+                    Sign in to your account to start using Dashcode
                   </div>
                 </div>
                 <LoginForm />
@@ -30,7 +30,7 @@ const Login2 = ({ params: { locale } }: { params: { locale: string } }) => {
                   </div>
                 </div>
                 <div className="max-w-[242px] mx-auto mt-8 w-full">
-                  <Social locale={locale} />
+                  <Social locale="en" />
                 </div>
                 <div className="md:max-w-[345px] mt-6 mx-auto font-normal text-default-500 md:mt-12 uppercase text-sm">
                   Don’t have an account?{" "}
@@ -57,7 +57,7 @@ const Login2 = ({ params: { locale } }: { params: { locale: string } }) => {
               <div className="flex-1 flex flex-col justify-center items-center">
                 <Link href="/">
                   <Image
-                    src="/images/logo/logo-white.png"
+                    src="/images/logo/logo-white.svg"
                     alt=""
                     width={300}
                     height={300}

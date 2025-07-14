@@ -3,7 +3,7 @@
     "title": "Hello world!"
   },
   "AnalyticsDashboard": {
-    "widget_title": "Upgrade your FVSTUDIOS",
+    "widget_title": "Upgrade your Dashcode",
     "widget_desc": "Pro plan for better results",
     "widget_badge": "now",
     "revenue_chart_title": "Total Revenue",
@@ -24,7 +24,7 @@
   },
   "BankingDashboard": {
     "widget_title": "Good evening",
-    "widget_desc": "Welcome to FVSTUDIOS",
+    "widget_desc": "Welcome to Dashcode",
     "current_balance": "Current balance",
     "credit": "Credit",
     "debit": "Debit",
@@ -43,7 +43,7 @@
   },
   "EcommerceDashboard": {
     "widget_title": "Good evening",
-    "widget_desc": "Welcome to FVSTUDIOS",
+    "widget_desc": "Welcome to Dashcode",
     "revenue_chart_title": "Total Revenue",
     "revenue_report": "Revenue Report",
     "sold_chart_title": "Products sold",
@@ -106,7 +106,6 @@
     "addBoard": "Add Board"
   },
   "CalendarApp": {
-    "pageTitle": "Calendar",
     "addEvent": "Add Event",
     "shortDesc": "Drag and drop your event or click in the calendar",
     "filter": "FILTER"

@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-
 const ExternalDraggingevent = ({ event }: any) => {
   const { title, id, tag } = event;
 
@@ -7,16 +6,13 @@ const ExternalDraggingevent = ({ event }: any) => {
     <div
       title={title}
       data-id={id}
-      className="fc-event px-4 py-1.5 bg-default-100 dark:bg-default-300 rounded text-sm flex items-center gap-2 shadow-xs cursor-move"
-    >
+      className="fc-event  px-4 py-1.5 bg-default-100 dark:bg-default-300  rounded text-sm flex  items-center gap-2 shadow-xs  cursor-move" >
       <span
         className={cn("h-2 w-2 rounded-full block", {
           "bg-primary": tag === "business",
           "bg-warning": tag === "meeting",
           "bg-destructive": tag === "holiday",
           "bg-info": tag === "etc",
-          "bg-success": tag === "personal",
-          "bg-cyan-500": tag === "family",
         })}
       ></span>
       <span className="text-sm font-medium text-default-900">{title}</span>

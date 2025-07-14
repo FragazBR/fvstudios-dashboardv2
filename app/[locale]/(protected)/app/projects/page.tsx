@@ -1,8 +1,8 @@
 
 import { redirect } from '@/components/navigation'
 
-const ProjectPage = ({ params: { locale } }: { params: { locale: string } }) => {
-  redirect({ href: '/app/projects/grid', locale })
+const ProjectPage = () => {
+  redirect({ href: '/app/projects/grid', locale: 'en' })
   return null
 }
 

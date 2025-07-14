@@ -9,7 +9,7 @@ const BasicAccordion = () => {
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
         <AccordionTrigger className="cursor-pointer">
-          How does FVSTUDIOS work?
+          How does Dashcode work?
         </AccordionTrigger>
         <AccordionContent>
           Journalist call this critical, introductory section the and when bridge properly executed,
@@ -17,14 +17,14 @@ const BasicAccordion = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
-        <AccordionTrigger className="cursor-pointer">Where I can learn more about using FVSTUDIOS?</AccordionTrigger>
+        <AccordionTrigger className="cursor-pointer">Where I can learn more about using Dashcode?</AccordionTrigger>
         <AccordionContent>
           Journalist call this critical, introductory section the and when bridge properly executed,
           it is the that carries your reader from anheadine try at attention-grabbing to the body of your blog post.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
-        <AccordionTrigger className="cursor-pointer">Why FVSTUDIOS is so important?</AccordionTrigger>
+        <AccordionTrigger className="cursor-pointer">Why Dashcode is so important?</AccordionTrigger>
         <AccordionContent>
           Journalist call this critical, introductory section the and when bridge properly executed,
           it is the that carries your reader from anheadine try at attention-grabbing to the body of your blog post.
