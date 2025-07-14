@@ -38,7 +38,7 @@ const Login3 = () => {
               <div className="text-center 2xl:mb-10 mb-5">
                 <h4 className="font-medium">Sign In</h4>
                 <div className="text-default-500  text-base">
-                  Sign in to your account to start using Dashcode
+                  Sign in to your account to start using FVSTUDIOS
                 </div>
               </div>
               <LoginForm />

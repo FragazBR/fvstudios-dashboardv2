@@ -69,7 +69,7 @@ const BasicNav = () => {
                     >
                       Admin UI
                       <div className="mb-2 mt-2 text-sm font-medium">
-                        DashCode Admin Template
+                        FVSTUDIOS Admin Template
                       </div>
                       <p className="text-sm leading-tight text-muted-foreground">
                         Beautifully designed components that you can copy and

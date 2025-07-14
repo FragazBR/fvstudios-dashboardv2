@@ -4,7 +4,7 @@ const BasicSeparator = () => {
   return (
     <div className="max-w-sm mx-auto">
       <div className="space-y-1">
-        <h4 className="text-sm font-medium leading-none">Dashcode</h4>
+        <h4 className="text-sm font-medium leading-none">FVSTUDIOS</h4>
         <p className="text-sm text-muted-foreground">
           Reusable Admin Ui Template
         </p>

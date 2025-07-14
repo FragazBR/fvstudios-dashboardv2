@@ -42,7 +42,7 @@ const Faq = () => {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem className="dark:bg-secondary bg-white" value="item-1">
                   <AccordionTrigger className="dark:bg-secondary bg-white data-[state=open]:bg-default-200 data-[state=active]:text-default cursor-pointer">
-                    How does Dashcode work?
+                    How does FVSTUDIOS work?
                   </AccordionTrigger>
                   <AccordionContent className="dark:bg-secondary bg-white">
                     Journalist call this critical, introductory section the and
@@ -53,7 +53,7 @@ const Faq = () => {
                 </AccordionItem>
                 <AccordionItem className="dark:bg-secondary bg-white" value="item-2">
                   <AccordionTrigger className="dark:bg-secondary bg-white data-[state=open]:bg-default-200 data-[state=active]:text-default cursor-pointer">
-                    Where I can learn more about using Dashcode?
+                    Where I can learn more about using FVSTUDIOS?
                   </AccordionTrigger>
                   <AccordionContent className="dark:bg-secondary bg-white">
                     Journalist call this critical, introductory section the and
@@ -64,7 +64,7 @@ const Faq = () => {
                 </AccordionItem>
                 <AccordionItem className="dark:bg-secondary bg-white" value="item-3">
                   <AccordionTrigger className="dark:bg-secondary bg-white data-[state=open]:bg-default-200 data-[state=active]:text-default cursor-pointer">
-                    Why Dashcode is so important?
+                    Why FVSTUDIOS is so important?
                   </AccordionTrigger>
                   <AccordionContent className="dark:bg-secondary bg-white">
                     Journalist call this critical, introductory section the and
@@ -75,7 +75,7 @@ const Faq = () => {
                 </AccordionItem>
                 <AccordionItem className="dark:bg-secondary bg-white" value="item-4">
                   <AccordionTrigger className="dark:bg-secondary bg-white data-[state=open]:bg-default-200 data-[state=active]:text-default cursor-pointer">
-                    Where I can find Dashcode?
+                    Where I can find FVSTUDIOS?
                   </AccordionTrigger>
                   <AccordionContent className="dark:bg-secondary bg-white">
                     Journalist call this critical, introductory section the and
@@ -90,7 +90,7 @@ const Faq = () => {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem className="dark:bg-secondary bg-white" value="item-1">
                   <AccordionTrigger className="dark:bg-secondary bg-white data-[state=open]:bg-default-200 data-[state=active]:text-default cursor-pointer">
-                    How does Dashcode work?
+                    How does FVSTUDIOS work?
                   </AccordionTrigger>
                   <AccordionContent className="dark:bg-secondary bg-white">
                     Journalist call this critical, introductory section the and
@@ -101,7 +101,7 @@ const Faq = () => {
                 </AccordionItem>
                 <AccordionItem className="dark:bg-secondary bg-white" value="item-2">
                   <AccordionTrigger className="dark:bg-secondary bg-white data-[state=open]:bg-default-200 data-[state=active]:text-default cursor-pointer">
-                    Where I can learn more about using Dashcode?
+                    Where I can learn more about using FVSTUDIOS?
                   </AccordionTrigger>
                   <AccordionContent className="dark:bg-secondary bg-white">
                     Journalist call this critical, introductory section the and
@@ -116,7 +116,7 @@ const Faq = () => {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem className="dark:bg-secondary bg-white" value="item-1">
                   <AccordionTrigger className="dark:bg-secondary bg-white data-[state=open]:bg-default-200 data-[state=active]:text-default cursor-pointer">
-                    How does Dashcode work?
+                    How does FVSTUDIOS work?
                   </AccordionTrigger>
                   <AccordionContent className="dark:bg-secondary bg-white">
                     Journalist call this critical, introductory section the and
@@ -127,7 +127,7 @@ const Faq = () => {
                 </AccordionItem>
                 <AccordionItem className="dark:bg-secondary bg-white" value="item-2">
                   <AccordionTrigger className="dark:bg-secondary bg-white data-[state=open]:bg-default-200 data-[state=active]:text-default cursor-pointer">
-                    Where I can learn more about using Dashcode?
+                    Where I can learn more about using FVSTUDIOS?
                   </AccordionTrigger>
                   <AccordionContent className="dark:bg-secondary bg-white">
                     Journalist call this critical, introductory section the and
@@ -138,7 +138,7 @@ const Faq = () => {
                 </AccordionItem>
                 <AccordionItem className="dark:bg-secondary bg-white" value="item-3">
                   <AccordionTrigger className="dark:bg-secondary bg-white data-[state=open]:bg-default-200 data-[state=active]:text-default cursor-pointer">
-                    Why Dashcode is so important?
+                    Why FVSTUDIOS is so important?
                   </AccordionTrigger>
                   <AccordionContent className="dark:bg-secondary bg-white">
                     Journalist call this critical, introductory section the and
