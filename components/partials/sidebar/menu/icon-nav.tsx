@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import DashCodeLogo from "@/components/dascode-logo";
+import DashCodeLogo from "@/components/fvstudios-logo";
 import { Group } from "@/lib/menus";
 import { Button } from "@/components/ui/button";
 import { Icon } from "@/components/ui/icon";
